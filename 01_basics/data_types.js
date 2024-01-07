@@ -10,4 +10,3 @@ let state; // undefined value hai
 
 console.log(typeof null); // object 
 console.log(typeof undefined); //undefined 
-
