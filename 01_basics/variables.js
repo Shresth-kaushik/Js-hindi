@@ -15,4 +15,3 @@ Prefered not to use the var due to block scope and function scope
 */
 console.table([accountEmail ,accountId ,password ,namePerson]);
 
- 
