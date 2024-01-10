@@ -23,3 +23,26 @@ let stringNum = String(numb)
 console.log(stringNum)
 console.log(typeof(stringNum))
  
+// Important to be noted 
+// Working of the equality check  operator == is different with comprasion operator > , < , >= ...
+
+console.log(null > 0)
+console.log(null==0)
+console.log(null >= 0) // -> In this case the null is converted to zero , ==> Gives the result true.
+
+
+console.log("2" + 1)
+console.log(1 + "2")
+
+// First additio then string conc.
+console.log(1+3+"5")
+
+// String main convert hojayein ge then string conc.
+console.log("5" + 1+3)
+
+
+// Strict check (===). check for the data type also 
+
+console.log("2" == 2) // true :-> conversion took place
+console.log("2" === 2 )// false 
+
