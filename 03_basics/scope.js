@@ -51,7 +51,7 @@ function addone(num){
 }
 
 
-
+// Not possible : Function call must be after the function definitation 
 addTwo(5)
 const addTwo = function(num){
     return num + 2
